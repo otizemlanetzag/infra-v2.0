@@ -6,4 +6,13 @@ for = for
 if = if
 while = while
 def = code{}
-connect(network,port) = connects to (network,port)
+connect(port) = connects to (network,port)
+sen(text, port, ip/url) = sends (text) to (ip/url) with connection (port
+ev(event) = waits for event to happen
+|->(code) = waits for (code) ro run
+|->(rec(port,text)) = waits for (port) to receive optional (text). if no (text) is provided, anything will trigger
+|->(press(element)) = waits for (element) to be pressed
+|->(touch(element)) waits for element to be touched with mouse
+'->(other) = anything else
+px(x,y,rgb) colors pixel (x,y) whith (rgb) color
+pxs(x,y,x,y,rgb) colors pixels (x,y) to (x,y) whith (rgb) color
