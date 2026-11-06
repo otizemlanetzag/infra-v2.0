@@ -1,0 +1,8 @@
+send(screen,text,x,y,font) = creates the text (text) at (x,y) with (font) on (screen)
+"text" or 'text' not "text' or 'text"
+rem(text) = removes the text on each place on the screen it is writen.
+getlib lib = {import lib}
+for = for
+if = if
+while = while
+def = code{}
