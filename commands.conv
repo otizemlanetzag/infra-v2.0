@@ -6,3 +6,4 @@ for = for
 if = if
 while = while
 def = code{}
+connect(network,port) = connects to (network,port)
